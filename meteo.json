@@ -1,0 +1,85 @@
+db.units.insertOne({
+ {
+  "units": "metric",
+  "main": [
+    {
+      "date": "2022-09-04",
+      "sunrise": "05:41:00",
+      "sunset": "18:09:00",
+      "three-hourly": [
+        {
+          "time": "00:00:00",
+          "feels_like": 15.13,
+          "temp_min": 15.01,
+          "temp_max": 15.19,
+          "rain": 0.26,
+          "humidity": 18
+        },
+        {
+          "time": "03:00:00",
+          "feels_like": 15.13,
+          "temp_min": 15.01,
+          "temp_max": 15.19,
+          "rain": 0.26,
+          "humidity": 18,
+          "description": "broken clouds",
+          "icon": "10n"
+        }
+      ]
+    },
+    {
+      "date": "2022-09-05",
+      "sunrise": "05:41:00",
+      "sunset": "18:09:00",
+      "three-hourly": [
+        {
+          "time": "00:00:00",
+          "feels_like": 15.13,
+          "temp_min": 15.01,
+          "temp_max": 15.19,
+          "rain": 0.26,
+          "humidity": 18,
+          "description": "broken clouds",
+          "icon": "10n"
+        },
+        {
+          "time": "03:00:00",
+          "feels_like": 15.13,
+          "temp_min": 15.01,
+          "temp_max": 15.19,
+          "rain": 0.26,
+          "humidity": 18,
+          "description": "broken clouds",
+          "icon": "10n"
+        }
+      ]
+    },
+    {
+      "date": "2022-09-06",
+      "sunrise": "05:41:00",
+      "sunset": "18:09:00",
+      "three-hourly": [
+        {
+          "time": "00:00:00",
+          "feels_like": 15.13,
+          "temp_min": 15.01,
+          "temp_max": 15.19,
+          "rain": 0.26,
+          "humidity": 18
+        },
+        {
+          "time": "03:00:00",
+          "feels_like": 15.13,
+          "temp_min": 15.01,
+          "temp_max": 15.19,
+          "rain": 0.26,
+          "humidity": 18,
+          "description": "broken clouds",
+          "icon": "10n"
+        }
+      ]
+    }
+  ]
+}
+
+})
